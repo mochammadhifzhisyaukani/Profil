@@ -110,8 +110,17 @@ body {
 	color: #0C2B4E;
 }
 
+
 h4 {
 	margin-top: 20px;
+}
+
+h4::after {
+	content: "  👇";
+}
+
+h4::before {
+	content: "👇  ";
 }
 
 audio {
