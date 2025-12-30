@@ -116,11 +116,11 @@ h4 {
 }
 
 h4::after {
-	content: "  👇";
+	content: " 👇";
 }
 
 h4::before {
-	content: "👇  ";
+	content: "👇 ";
 }
 
 audio {
