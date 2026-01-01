@@ -3,11 +3,16 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
 	background-color: white;
 	font-family: roboto;
+}
+
+#beranda, #profil, #tamu, #saran {
+	scroll-margin-top: 200px;
 }
 
 .navbar {
@@ -17,7 +22,9 @@ body {
 	padding: 0 50px;
 	margin: auto;
 	height: 87px;
+	width: 100%;
 	align-items: center;
+	position: fixed;
 }
 
 .logo a{
@@ -82,6 +89,7 @@ body {
 	margin-bottom: 30px;
 	font-size: 50px;
 	color: white;
+	margin-top: 100px;
 }
 
 #content p{
@@ -113,6 +121,7 @@ body {
 
 h4 {
 	margin-top: 20px;
+	color: white;
 }
 
 h4::after {
@@ -131,4 +140,213 @@ audio {
 footer {
 	text-align: center;
 	padding-top: 50px;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
+
+/*profil*/
+			body {
+				background: linear-gradient(to left, #213448, #547792)
+			}
+			
+			.hero-section{
+				display: flex;
+				justify-content: space-between;
+				margin: auto;
+				background: linear-gradient(to left, #213448, #547792);
+				margin-top: 50px;
+			}
+			
+			.headshot img {
+				margin: 40px;
+				height: 325px;
+				border-radius: 155px;
+				box-shadow:2px 1px 10px black;
+			}
+			
+			
+			
+			.headshot img:hover {
+				height: 330px;
+				border-radius: 160px;
+			}
+			
+			.text {
+				margin: 40px;
+				color: white;
+				
+			}
+			
+			.text h2 {
+				font-size : 40px;
+				margin-bottom: 25px;
+			}
+			
+			.text p {
+				font-size: 20px;
+				padding: 2px;
+			}
+			
+			.sosial-media {
+				margin-top: 40px;
+				margin-left: -12;
+				font-size: 18px;
+			}
+			
+			.sosial-media a {
+				margin: 10px;
+				text-decoration: none;
+				background-color: gray;
+				padding: 10px;
+				color: white;
+				border-radius: 5px;
+				transition: 0.03s;
+			}
+			
+			.sosial-media a:hover {
+				background-color: #213448;
+				color: white;
+				padding: 10px;
+				border-bottom: 2px solid black;
+			}
+			
+			.all-profil {
+				display: flex;
+				justify-content: center;
+				gap: 50px;
+				margin-top: 20px;
+				
+			}
+			
+			.profil img {
+				height: 100px;
+				margin-bottom: 10px;
+				margin-top: 10px;
+				border-radius: 10px;
+			}
+			
+			.title {
+				margin-bottom: 5px;
+			}
+			
+			.profil p{
+				margin-bottom: 10px;
+			}
+			.profil {
+				text-align: center;
+				border: 1px solid black;
+				width: 200px;
+				margin: 5px;
+				border-radius: 10px;
+				background: linear-gradient(to bottom, #435663, #313647);
+				color: white;
+				flex-wrap: wrap;
+			}
+			
+			.profil:hover {
+				padding: 10px;
+			}
+			
+			#teks {
+				color: white;
+				font-size: 40px;
+				margin-top: 50px;
+				margin-bottom: 40px;
+			}
+			
+/*tamu*/
+			.tamu img {
+				width: 100px;
+				object-fit: cover;
+				border-radius: 100px;
+				padding-bottom: 5px;
+				
+			}
+			
+			.semua-card {
+				display: flex;
+				justify-content: center;
+				margin-top: 50px;
+			}
+			
+			
+			.tamu {
+			    width: 200px;
+				text-align: center;
+				padding: 10px;
+				border: 2px solid black;
+				border-radius: 10px;
+				margin: 20px;
+				background: linear-gradient(to bottom, #435663, #313647);
+			}
+			
+			.tamu-title {
+				color: white;
+				font-size: 20px;
+				padding: 9px;
+			}
+			
+			.tamu-paragraf {
+				font-size: 12px;
+				color: white;
+				padding-bottom: 15px;
+			}
+			
+			.tamu-btn {
+				color: white;
+				background-color: gray;
+				padding: 6px;
+				border-radius: 5px;
+				margin-bottom: 5px;
+				transition: 0.03s;
+			}
+			
+			.tamu-btn:hover {
+				background-color: white;
+				color: gray;
+				padding: 8px;
+			}
+			
+/*saran*/
+			.saran {
+				justify-items: center;
+				padding: 20px;
+				margin: 80px auto;
+				border: 1px solid black;
+				width: 270px;
+				border-radius: 10px;
+				background: linear-gradient(to bottom, #435663, #313647);
+				margin-top: 50px;
+				
+			}
+			
+			.label {
+				color: white;
+				margin: 5px;
+		
+			}
+			
+			input {
+				margin-top: 5px;
+				border-radius: 5px;
+				padding: 5px;
+				margin: 5px;
+				
+			}
+			
+			textarea {
+				border-radius: 5px;
+				padding: 5px;
+				margin: 5px;
+				border: 1px solid black;
+			}
+			
+			.saran-btn {
+				padding: 10px 15px;
+				margin: 10px 90px;;
+				background-color: #435663;
+				color: white;
+				border-radius: 5px;
+				
+			}
